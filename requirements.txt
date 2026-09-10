@@ -1,0 +1,14 @@
+streamlit
+torch
+transformers
+xgboost
+joblib
+pandas
+numpy
+scipy
+pillow
+plotly
+scikit-learn
+spacy
+mediapipe
+packaging<25
