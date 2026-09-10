@@ -45,7 +45,7 @@ from PIL import Image, ImageDraw, ImageFont
 # ======================================================================
 # CONFIG — edit paths to match your machine
 # ======================================================================
-DATA_DIR = r"D:\Downloads\final tast project" # <— change if needed
+DATA_DIR = os.path.join(BASE_DIR, "final tast project")# <— change if needed
 
 MODEL_PATH             = os.path.join(DATA_DIR, "best_xgboost_fit_model.pkl")
 SCALER_PATH            = os.path.join(DATA_DIR, "numeric_scaler.pkl")
