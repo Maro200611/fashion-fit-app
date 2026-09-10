@@ -1,0 +1,18 @@
+{
+  "numeric": {
+    "height_cm_median": 165.0,
+    "weight_kg_median": 59.0,
+    "age_median": 32.0
+  },
+  "categorical": {
+    "bust size": "Unknown",
+    "bra size": "Unknown",
+    "cup size": "Unknown",
+    "body type": "Unknown",
+    "rented for": "Unknown",
+    "category": "dress",
+    "length": "Unknown",
+    "size": "8",
+    "quality": "Unknown"
+  }
+}
