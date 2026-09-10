@@ -45,8 +45,11 @@ from PIL import Image, ImageDraw, ImageFont
 # ======================================================================
 # CONFIG — edit paths to match your machine
 # ======================================================================
+# BASE_DIR هو المجلد الحالي اللي جواه App.py
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "final tast project")# <— change if needed
+
+# خلّي DATA_DIR يشاور على نفس المجلد مباشرة من غير تكرار الاسم
+DATA_DIR = BASE_DIR# <— change if needed
 
 MODEL_PATH             = os.path.join(DATA_DIR, "best_xgboost_fit_model.pkl")
 SCALER_PATH            = os.path.join(DATA_DIR, "numeric_scaler.pkl")
