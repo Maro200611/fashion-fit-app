@@ -45,6 +45,7 @@ from PIL import Image, ImageDraw, ImageFont
 # ======================================================================
 # CONFIG — edit paths to match your machine
 # ======================================================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "final tast project")# <— change if needed
 
 MODEL_PATH             = os.path.join(DATA_DIR, "best_xgboost_fit_model.pkl")
